@@ -1,0 +1,2 @@
+entity_1
+entity_2 entity_2_type

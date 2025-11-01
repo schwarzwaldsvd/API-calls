@@ -1,0 +1,51 @@
+﻿[	
+	{
+		"cacheFolder": "downloads",
+		"listFileName": "items-parameters.txt",
+		"sleepSeconds": 1,
+		"windowTitle": "make API calls",
+		"auth": {
+			"grant_type": "client_credentials",
+			"url": "n/a",
+			"method": "POST",
+			"accept": "application/json",
+			"content_type": "application/json"
+		},
+		"keyCloak": {
+			"client_id": "testing-client_id",
+			"client_secret": "testing_client_sercret",
+			"token_endpoint": "https://test.test/test/get-token"
+		},
+		"header": {
+			"method": "POST",
+			"scheme": "http",
+			"rHost": "www.host.com",
+			"path": "empty"
+		},
+		"entities": {
+			"accept": "application/json",
+			"content_type": "application/json",
+			"method": "POST",
+			"entity_1": {
+				"url": "https://entity.test/path1",
+				"form_data": {
+					"personFirstName": "Name1",
+					"personLastName": "Name2",
+					"ssn": "0000-000-000"
+				}
+			},
+			"entity_2": {
+				"entity_2_type": {
+					"url": "https://entity_2.test/path1",
+					"form_data": {
+						"name": "string",
+						"address": "string",
+						"phoneNumber": "string",
+						"ssn": "0000000000000",
+						"email": "string"
+					}
+				}
+			}
+		}
+	}
+]
