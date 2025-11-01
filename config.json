@@ -12,8 +12,8 @@
 			"content_type": "application/json"
 		},
 		"keyCloak": {
-			"client_id": "testing-client_id",
-			"client_secret": "testing_client_sercret",
+			"client_id": "testing_client_id",
+			"client_secret": "testing_client_secret",
 			"token_endpoint": "https://test.test/test/get-token"
 		},
 		"header": {
